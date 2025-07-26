@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     # 可传递变量到模板
-    return render_template('home.html', title="首页", message="欢迎访问我的 Flask 应用！")
+    return render_template('home.html', title="首页", message="祝表姐表姐夫新婚快乐！")
 
 # 测试路由
 @app.route('/about')
